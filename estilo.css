@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eu{
+    font-size: 25px ;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none; /tira o azul das opções do nav/
+    font-weight: 500;
+    margin-left: 35px;
+}
+.home{
+    height: 100vh;
+    background: url('./img/Lidiane\ Gomes\ \(3\).jpeg') no-repeat;
+    background: cover;
+    background-position: right;
+    background-size: 500px 600px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    ba
+    display: flex;
+    align-items: center;
+}
+.home-content{
+    background: #000000;
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    animation: showRight 1s ease forwards;
+}
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #e53939;
+}
+.home-imgHover{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 500px;
+    height: 100%;
+}

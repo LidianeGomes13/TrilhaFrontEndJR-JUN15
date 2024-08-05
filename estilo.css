@@ -21,7 +21,7 @@ body{
 }
 .eu{
     font-size: 25px ;
-    color: #ffffff;
+    color: #e53939;
     text-decoration: none;
     font-weight: 600;
 }
@@ -41,9 +41,9 @@ body{
     display: flex;
     align-items: center;
     padding: 0 10%;
-    ba
     display: flex;
     align-items: center;
+    
 }
 .home-content{
     background: #000000;
@@ -65,4 +65,5 @@ body{
     right: 30px;
     width: 500px;
     height: 100%;
+    border-radius: 50%;
 }
